@@ -22,7 +22,15 @@
  *
  */
 
-#include "esp_common.h"
+//#include "esp_common.h"
+#include "ets_sys.h"
+#include "osapi.h"
+
+#include "user_interface.h"
+
+#include "user_devicefind.h"
+#include "user_webserver.h"
+
 
 /******************************************************************************
  * FunctionName : user_rf_cal_sector_set
